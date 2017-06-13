@@ -1,17 +1,17 @@
-﻿// clone project
-git clone <url>
-
-// Xem file nào chưa add vào git
-git status
-
-// Thêm file vào git
-git add *
-
+﻿// Chuẩn bị
 // Khai báo tên để commit
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 
-// đẩy file lên git
 
-git commit -m"Tiêu đề commit"
+// clone project
+git clone <url>
+
+// Xem file nào chưa được git theo dõi
+git status
+
+
+// đẩy file lên git
+git add * // Thêm file để git theo dõi
+git commit -m"comment" // Xác nhận thay đổi trên local
 git push
