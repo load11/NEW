@@ -13,5 +13,15 @@ git status
 
 // đẩy file lên git
 git add * // Thêm file để git theo dõi
-git commit -m"comment" // Xác nhận thay đổi trên local
+git commit -a -m"comment" // Xác nhận thay đổi trên local
 git push
+
+// xem các lần thay đổi git
+git log
+
+// Backup quay trở lại 1 thời điểm commit
+git revert <ID>
+ESC
+ấn q -> enter
+
+
