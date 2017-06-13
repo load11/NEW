@@ -24,4 +24,5 @@ git revert <ID>
 ESC
 ấn q -> enter
 
-aaaaaaaaaaaaaaaaaaa
+// Đồng bộ với đồng nghiệp
+git pull
