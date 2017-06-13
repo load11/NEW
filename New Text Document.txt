@@ -1,1 +1,40 @@
+<<<<<<< HEAD
 ﻿
+=======
+Repository (kho chứa) nghĩa là nơi mà bạn sẽ lưu trữ mã nguồn và một người khác có thể sao chép (clone) lại mã nguồn đó nhằm làm việc. Repository có hai loại là Local Repository (Kho chứa trên máy cá nhân) và Remote Repository (Kho chứa trên một máy chủ từ xa).
+
+
+// Chuẩn bị
+// Khai báo tên để commit
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+// Tạo local repository
+
+git init git_example
+
+
+
+// clone project
+git clone <url>
+
+// Xem file nào chưa được git theo dõi
+git status
+
+
+// đẩy file lên git
+git add * // Thêm file để git theo dõi
+git commit -a -m"Lời nhắn" // Xác nhận thay đổi trên local
+git push
+
+// xem các lần thay đổi git
+git log
+
+// Backup quay trở lại 1 thời điểm commit
+git revert <ID>
+ESC
+ấn q -> enter
+
+// Đồng bộ với đồng nghiệp
+git pull
+>>>>>>> ab3b33b67ef1a68c9e73d3b472dd93e7cc8a48f8
