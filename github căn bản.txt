@@ -24,4 +24,4 @@ git revert <ID>
 ESC
 ấn q -> enter
 
-
+aaaaa
