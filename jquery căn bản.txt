@@ -1,1 +1,10 @@
 Selectors
+  :first // chọn phần tử đầu tiên
+  :last // chọn phần tử cuối cùng
+  :even // chọn phần tử chẵn
+  :odd // chọn phần tử lẻ
+  :gt(index) // chọn phần tử lớn hơn index
+  :lt(index) // chọn phần tử nhỏ hơn index
+  :eq(index) // chọn phần tử có chỉ số index
+  a[href] // chọn tất cả các thẻ a có thuộc tính href
+  
